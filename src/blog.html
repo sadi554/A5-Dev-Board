@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>DevBoard - Blogs</title>
+</head>
+
+<body>
+    <!-- Nav Menu -->
+    <nav class="container flex justify-between items-center  mx-auto px-5 py-6 my-5 rounded-2xl  bg-white">
+        <!-- Logo -->
+        <div class="logo flex justify-between items-center">
+            <img class="pr-3" src="./assets/logo.png" alt="logo">
+            <h1 class="text-4xl">Dev<span class="font-bold">Board</span></h1>
+        </div>
+        <!-- Nav Menu -->
+        <a href="index.html">
+            <div class="flex justify-between items-center">
+                <button
+                    class="bg-[#3752FD] rounded-xl text-white px-2.5 py-2 tracking-wide  mt-4 clearHistoryButton">Back
+                    to Desk</button>
+            </div>
+        </a>
+    </nav>
+
+    <section class="container mx-auto flex flex-col gap-5">
+        <h1 class="text-6xl">Blogs</h1>
+
+        <div class="p-4 bg-[#F4F7FF] shadow-md rounded-2xl ">
+            <div class="flex  flex-col items-start gap-4 w-full bg-white mb-4 p-2">
+                <h2 class="text-2xl font-medium ">Question-1: What are the different ways to select an element in the
+                    DOM?</h2>
+                <p class="bg-white rounded-xl opacity-50">
+                <ul>
+                    <li>getElementById()</li>
+                    <li>getElementsByClassName()</li>
+                    <li>getElementsByTagName()</li>
+                    <li>querySelector()</li>
+                    <li>querySelectorAll()</li>
+                </ul>
+                </p>
+            </div>
+
+
+            <div class="flex flex-col items-start gap-4 w-full bg-white mb-4 p-2">
+                <h2 class="text-2xl font-medium ">Question-2: What is the difference between innerHTML, innerText, and
+                    textContent ?</h2>
+                <p class="bg-white rounded-xl opacity-50">
+                    innerHTML: Gets or sets HTML content inside an element.
+                    innerText: Gets or sets visible text, excluding hidden elements.
+                    textContent: Gets or sets all text inside an element, including hidden text.
+                </p>
+            </div>
+
+
+            <div class="flex flex-col items-start gap-4 w-full bg-white mb-4 p-2">
+                <h2 class="text-2xl font-medium ">Question-3: What is event delegation in the DOM?</h2>
+                <p class="bg-white rounded-xl opacity-50">
+                    It's a technique where you attach a single event listener to a parent element instead of individual
+                    child
+                    elements. The
+                    event is then triggered when it bubbles up from the child.
+                </p>
+            </div>
+
+
+            <div class="flex flex-col items-start gap-4 w-full bg-white mb-4 p-2">
+                <h2 class="text-2xl font-medium ">Question-4: What is event bubbling in the DOM?</h2>
+                <p class="bg-white rounded-xl opacity-50">
+                    Event bubbling is when an event starts at the most specific element (child) and bubbles up to the
+                    root
+                    (parent)
+                    elements.
+                </p>
+            </div>
+
+            <div class="flex flex-col items-start gap-4 w-full bg-white mb-4 p-2">
+                <h2 class="text-2xl font-medium ">Question-5: How do you create, add, and remove elements using
+                    JavaScript?</h2>
+                <p class="bg-white rounded-xl opacity-50">
+                    Create: document.createElement('tag')
+                    Add: parent.appendChild(newElement)
+                    Remove: parent.removeChild(child)
+                </p>
+            </div>
+
+            <h4></h4>
+            <p></p>
+
+    </section>
+
+</body>
+
+</html>
